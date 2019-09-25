@@ -6,6 +6,10 @@
       left: 50%;
       transform: translate(-50%, -50%);
 }
+.align_right
+{
+	align-items: center;
+}
 .search-box
         {
       float: center;
@@ -112,9 +116,17 @@
 	height: 100%;
 	width: auto;
 	background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    position: relative;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -3%;
+}
+.login_button
+{
+  position: relative;
+  padding: 14px;
+  
+        
 }
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -125,7 +137,15 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-
+button_pass {
+  background-color: white;
+  color: white;
+  padding: 14px 20px;
+  margin-left : 2%;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
 /* Set a style for all buttons */
 button {
   background-color: #0346BB;
@@ -167,6 +187,19 @@ img.avatar {
 span.psw {
   float: right;
   padding-top: 16px;
+}
+.height_50
+{
+  max-height: 50%;
+}
+.border_2px
+{
+    border-style: solid;
+    border-width: medium;
+}
+.width_50
+{
+  max-width: 50%;
 }
 
 /* The Modal (background) */
@@ -231,6 +264,6 @@ span.psw {
      float: none;
   }
   .cancelbtn {
-     width: 100%;
+     width: 80%;
   }
 }
