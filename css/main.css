@@ -33,8 +33,7 @@
 {
   position: relative;
   left: 40%;
-  max-width: 45
-  %;
+  max-width: 45%;
   top: -8.9%;
 }
 form.example input[type=text] {
@@ -114,12 +113,8 @@ form.example::after {
 }
 .footer
 {
-     background-color:aquq;
+     background-color:aqua;
       opacity:80%;
-}
-.input
-{
-	size:50%;
 }
 .margin
 {
@@ -156,7 +151,7 @@ form.example::after {
   background-repeat:no-repeat;
   background-size: cover;
   position: relative;
-  top: -3%;
+  top: -12.5%;
 }
 .login_button
 {
@@ -200,7 +195,7 @@ input[type=text] {
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
-  background-image: url('searchicon.png');
+  background-image: url('F:\Pranay__data\project views\Views_Worth_Reading\Images\seachicon.png');
   background-position: 10px 10px; 
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
@@ -219,7 +214,7 @@ input[type=text]:focus {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
+  background-color: lightblue;
 }
 
 /* Center the image and position the close button */
