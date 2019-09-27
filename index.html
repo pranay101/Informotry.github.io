@@ -6,17 +6,18 @@
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/Pixabay.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <div class="topnav">
-        <a class="active" href="index.html">Home</a>
+    <div class="topnav" >
+        <a style="padding: .5%" href="index.html"><img src="Images/logosmall.png" alt="Home"></a>
+        <a class="active" href="index.html">      Home</a>
         <a href="html/Explore.html">All Topics</a>
         <a href="html/Upload.html">Upload</a>
         <a href="html/Sign_up.html">Signup</a>
         <a href="html/About.html">About</a>
         <a href="html/Feedback.html">Feedback</a>
-      <div></div>
         <div align="right"; style="margin-right: 5% ">
 
             <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;color: white">Login</button>
@@ -30,18 +31,19 @@
                         </div>
 
                         <div class="container">
+                            <div>
                             <label for="uname"><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required>
+                            <input class="login_bar" type="text" placeholder="Enter Username" name="uname" required>
 
                             <label for="psw"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>
+                            <input class="login_bar" type="password" placeholder="Enter Password" name="psw" required>
 
                             <button style="color: white" type="submit">Login</button>
                             <label>
 					<input type="checkbox" checked="checked" name="remember"> Remember me
 				  </label>
                         </div>
-
+                        </div>
                         <div class="container" style="background-color:#f1f1f1">
                             <!--<span class="psw"> <a href=" ">Forgot password?</a></span> -->
                             <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
@@ -51,21 +53,22 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="place_searchbox"> 
-            <form>
-                <input type="text" name="search" placeholder="Search..">
-            </form>
-    </div>
-    `
+    </div>    `
     <div class="primarybg_image">
+        <div>
+            <form action="#">
+            </form>
+        </div>
         <div style="margin-left: 5% ; margin-right: 5% ">
-            <table width="100%">
-                <tbody>
+          <table width="100%">
+              <tbody>
                     <tr>
                         `
                         <td>
-                            <br><br><br><br>
+                            <br>
+                            <input class="searchbar_submit" type="Submit" name="Submit"  id="toback.">
+                            <input class="searchbar_text" placeholder="Search For Topics..... " type="text" name="Search" id="Usearch">
+                            <br><br><br>
                             <h1 class="H1_font" style="color:white">Warm Greetings to you....</h1>
                         </td>
                     </tr>

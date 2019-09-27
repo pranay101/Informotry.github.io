@@ -10,15 +10,30 @@
 {
 	align-items: center;
 }
-.search-box
-        {
-      position: relative;
-      margin-right: 20%;
-      margin-left: 70%;
-      font-size: 14px;
-      border: none;
-      cursor: pointer;
-    }
+.searchbar_text
+{ 
+  width: 25%;
+  left: 61%;
+  top:10%;
+  position: relative;
+  padding: 1%;
+  background: white;
+  outline: none;
+  border: #2196F3;
+  border-radius: .25px.0.0.25px;
+}
+.searchbar_submit
+{
+  top:10%;
+  left: 95.4%;
+  position: relative;
+  padding: 1%;
+  background : yellow;
+  outline: none;
+  border: #2196F3;
+  border-radius: .0.25px.25px.0;
+  cursor: pointer;
+}
 .isell
 {
      font-family: cosmic unset;
@@ -28,13 +43,6 @@
      position:absolute;
      top: 29%;
      font-size: 800%;
-}
-.place_searchbox
-{
-  position: relative;
-  left: 40%;
-  max-width: 45%;
-  top: -8.9%;
 }
 form.example input[type=text] {
   padding: 10px;
@@ -68,15 +76,22 @@ form.example::after {
 }
 .topnav 
 {
-      overflow: hidden;
+    overflow: hidden;
 	  padding: .2%;
-      background-color: lightblue;
+    background-color: lightblue;
 }
 .topnav input[type=text]
 {
       border: 2px solid #ccc;  
 }
-
+.logo
+{
+  max-width: 1;
+  max-height: 1;
+  position: relative;
+  left: 2%;
+  float: left;
+}
 .topnav a
 {
       float: left;
@@ -142,6 +157,23 @@ form.example::after {
 	font-size: 130%;
 
 }
+.white_font
+{
+  font face = Comic sans MS;
+  color: white;
+  position: relative;
+  top: 15%;
+}
+.about_bg_image_
+{
+  background-image: url("../Images/leaves-1031355_1920.jpg");
+  height: 100%;
+	width: auto;
+	background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+}
 .primarybg_image
 {
 	background-image:url("https://www.ropesgray.com/-/media/Images/practice-photos/IP-Litigation-image.bmp");
@@ -151,7 +183,7 @@ form.example::after {
   background-repeat:no-repeat;
   background-size: cover;
   position: relative;
-  top: -12.5%;
+  top: -2.6%;
 }
 .login_button
 {
@@ -161,13 +193,14 @@ form.example::after {
         
 }
 /* Full-width input fields */
-input[type=text], input[type=password] {
+.login_bar {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  border-radius: 25,0,0,25;
 }
 button_pass {
   background-color: white;
@@ -188,23 +221,7 @@ button {
   cursor: pointer;
   width: 100%;
 }
-input[type=text] {
-  width: 130px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('F:\Pranay__data\project views\Views_Worth_Reading\Images\seachicon.png');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
 
-input[type=text]:focus {
-  width: 100%;
 }
 .button:hover {
   opacity: 0.8;
