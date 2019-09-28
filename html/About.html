@@ -22,6 +22,41 @@
         <a href="Sign_up.html">Signup</a>
         <a class="active" href="About.html">About</a>
         <a href="Feedback.html">Feedback</a>
+        <div align="right"; style="margin-right: 5% ">
+
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;color: white">Login</button>
+    
+                <div  id="id01" class="modal">
+                    <div style="max-height: 30% ; max-width: 30%">
+                        <form class="modal-content animate" action="#" method="post">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Avatar" class="avatar">
+                            </div>
+    
+                            <div class="container">
+                                <div>
+                                <label for="uname"><b>Username</b></label>
+                                <input class="login_bar" type="text" placeholder="Enter Username" name="uname" required>
+    
+                                <label for="psw"><b>Password</b></label>
+                                <input class="login_bar" type="password" placeholder="Enter Password" name="psw" required>
+    
+                                <button style="color: white" type="submit">Login</button>
+                                <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                            </div>
+                            </div>
+                            <div class="container" style="background-color:#f1f1f1">
+                                <!--<span class="psw"> <a href=" ">Forgot password?</a></span> -->
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                <a href="#">Forgot Password..</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
     </div>
     <div class="white_font" style="margin-left: 10% ;margin-right: 10%" align="center" >
         <h1 style="font-size: 530% ; color: white">About us </h1>

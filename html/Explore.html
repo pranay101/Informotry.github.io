@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Views Worth Reading ....</title>
     <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="../css/Pixabay.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -18,10 +19,188 @@
         <a href="Sign_up.html">Signup</a>
         <a href="About.html">About</a>
         <a href="Feedback.html">Feedback</a>
+        <div align="right"; style="margin-right: 5% ">
+
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;color: white">Login</button>
+    
+                <div  id="id01" class="modal">
+                    <div style="max-height: 30% ; max-width: 30%">
+                        <form class="modal-content animate" action="#" method="post">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Avatar" class="avatar">
+                            </div>
+    
+                            <div class="container">
+                                <div>
+                                <label for="uname"><b>Username</b></label>
+                                <input class="login_bar" type="text" placeholder="Enter Username" name="uname" required>
+    
+                                <label for="psw"><b>Password</b></label>
+                                <input class="login_bar" type="password" placeholder="Enter Password" name="psw" required>
+    
+                                <button style="color: white" type="submit">Login</button>
+                                <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                            </div>
+                            </div>
+                            <div class="container" style="background-color:#f1f1f1">
+                                <!--<span class="psw"> <a href=" ">Forgot password?</a></span> -->
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                <a href="#">Forgot Password..</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
     </div>
-    <div style="margin-left: 18%">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <p style="font-size : 100px">        Under development !! </p>
-        </div>
+    <div class="primarybg_image_Explore">
+            <div style = "transform: translate(38%, 55%);">
+                    <h1 style=" font-family: comic sans-serif; font-size: 600% ; color :white;"><u> Explore</u></h1>
+                </div>
+    </div>
+   
+    <div class="wrapper">
+            <input type="text" class="input" 
+            placeholder="What are you looking for?">
+            <div class="searchbtn"><i class="fas fa-search"></i></div>
+    </div>
+    <div style=" margin-left: 8% ;position: relative">
+        <table align="center">
+            <tr>
+                <td>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201909/current_affairs_new-770x433.png?PiT616jEVldzt2ck7lQcoxY6ZoLVYMLN" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://quotefancy.com/media/wallpaper/3840x2160/213971-Dwight-D-Eisenhower-Quote-The-history-of-free-men-is-never-really.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBlKaFPi-YJtNa--uphJHHwPxhEWuhpJN4TrRhNH7fnpGpUKeF4Q" class="card-img-top" alt="...">
+                        <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </td>
+            </tr>
+            <tr>
+                    <td><br><br><br>
+                        <div class="card" style="width: 18rem;">
+                            <img src="../Images/my thoights.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        </div>
+                    </td>
+                    <td><br><br><br>
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://smedia2.intoday.in/aajtak/images/stories/062019/ui_1024_1565711252_618x347.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><br><br><br>
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://in.bookmyshow.com/entertainment/wp-content/uploads/2019/08/Best-Tamil-Movies-Online_960x540.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </td>
+                </tr>
+                <br><br><br><br>
+                <tr>
+                        <td><br><br><br>
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://www.visitportugal.com/sites/www.visitportugal.com/files/mediateca/23_660x371.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                            </div>
+                        </td>
+                        <td><br><br><br>
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://www.abc.net.au/cm/rimage/10749616-16x9-xlarge.jpg?v=3" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><br><br><br>
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://thestatetimes.com/wp-content/uploads/2018/02/infotech-678x381.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                <br><br><br>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://www.sleepadvisor.org/wp-content/uploads/2019/07/Building-Culture-Title-Illustration.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                                </div>
+                            </td>
+                            <td><br><br><br>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://cdn.designbyhumans.com/file/module/store/144/34144/hero/4926802.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><br><br><br>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYU24xKae0ZWHGG0kFvGzij2zwrBjXUhgZ2lzGRtEv7BNfuSPD" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                                </td>
+                        </tr>
+        </table>
+    </div>
+
 </body>
 </html>

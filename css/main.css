@@ -20,7 +20,45 @@
   background: white;
   outline: none;
   border: #2196F3;
-  border-radius: .25px.0.0.25px;
+  border-radius:  25px 0 0 25px;
+}
+.wrapper{
+	position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0,0.6);
+    max-width: 50%;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.wrapper .input {
+    width: 85%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border-radius: 25px 0 0 25px;
+}
+
+.searchbtn {
+    background: #ffec00;
+    width: 10%;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.searchbtn .fas{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
 }
 .searchbar_submit
 {
@@ -79,7 +117,7 @@ form.example::after {
     overflow: hidden;
 	  padding: .2%;
     background-color: lightblue;
-}
+ }
 .topnav input[type=text]
 {
       border: 2px solid #ccc;  
@@ -174,10 +212,10 @@ form.example::after {
 }
 .white_font
 {
-  font face = Comic sans MS;
-  color: white;
-  position: relative;
-  top: 15%;
+  font-family : Comic_sans_MS;
+  color : white;
+  position : relative;
+  top : 15%;
 }
 .h2_red_size_mid_large_center
 {
@@ -213,6 +251,16 @@ form.example::after {
   background-size: cover;
   position: relative;
   top: -2.6%;
+}
+.primarybg_image_Explore
+{
+	background-image:url("../Images/clouds-dark-hand-427900.jpg");
+	height: 100%;
+  width: auto;
+	background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .login_button
 {
@@ -251,7 +299,7 @@ button {
   width: 100%;
 }
 
-}
+
 .button:hover {
   opacity: 0.8;
 }
